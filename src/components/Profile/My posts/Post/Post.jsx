@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src='https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png'/>
             {props.message}
             <div>
-                <span>like {props.likecount}</span>
+                <span>like</span> {props.likecount}
             </div>
         </div>
     )
